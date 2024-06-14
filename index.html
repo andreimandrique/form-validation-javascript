@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <form action="" method="post" novalidate>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <div id="validateEmail"></div>
+          </div>
+          <div class="input-container">
+            <label for="country">Country : </label>
+            <select id="country">
+              <option value="ch">Switzerland</option>
+              <option value="fr">France</option>
+              <option value="de">Germany</option>
+              <option value="nl">The Netherlands</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="ZIP">ZIP : </label>
+            <input type="text" id="ZIP" />
+            <div id="validateZIP"></div>
+          </div>
+          <div class="input-container">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="input-container">
+            <label for="cpassword">Confirm Password: </label>
+            <input type="password" name="cpassword" id="cpassword" />
+            <div id="validatePassword"></div>
+          </div>
+          <input class="btn" id="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

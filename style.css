@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* input[type="email"]:valid {
+  border: 1px solid blue;
+} */
+input[type="email"]:invalid {
+  border: 1px solid red;
+}
+.center {
+  min-width: 30vw;
+  border: 1px solid black;
+  padding: 2rem;
+}
+.input-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.input-container > div {
+  margin-top: 8px;
+}
